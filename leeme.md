@@ -13,7 +13,7 @@ kubectl rollout restart deployment auth-depl
 kubectl config view
 kubectl config use-context
 kubectl create secret generic somename --from-literal=MY_KEY=asdfaf
-
+kubectl logs <the_pod_name>
 skaffold dev
 
 
